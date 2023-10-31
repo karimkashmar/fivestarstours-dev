@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include fivestarstours_dev *.css
+recursive-include fivestarstours_dev *.csv
+recursive-include fivestarstours_dev *.html
+recursive-include fivestarstours_dev *.ico
+recursive-include fivestarstours_dev *.js
+recursive-include fivestarstours_dev *.json
+recursive-include fivestarstours_dev *.md
+recursive-include fivestarstours_dev *.png
+recursive-include fivestarstours_dev *.py
+recursive-include fivestarstours_dev *.svg
+recursive-include fivestarstours_dev *.txt
+recursive-exclude fivestarstours_dev *.pyc
